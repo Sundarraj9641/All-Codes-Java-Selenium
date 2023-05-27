@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="567"/>
+		<item key="DIALOG_Y_ORIGIN" value="308"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="sundar"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="Indu"/>
+			<item value="indu20212311@gmail"/>
+			<item value="$"/>
+			<item value="^"/>
+			<item value="056"/>
+			<item value="087"/>
+			<item value="2026"/>
+			<item value="5671234567899876"/>
+			<item value="7722005480"/>
+			<item value="SundarRaj918@gmail"/>
+			<item value="TamilNadu"/>
+			<item value="Maharashtra"/>
+			<item value="Pune"/>
+			<item value="singh"/>
+			<item value="pravin"/>
+		</list>
+		<list key="replacehistory">
+			<item value="sundar"/>
+			<item value="sundar1234@gmail"/>
+			<item value=""/>
+			<item value="087"/>
+			<item value="6578567867898907"/>
+			<item value="9876543212"/>
+			<item value="sundarraj1234@gmail"/>
+			<item value="Tamilnadu"/>
+			<item value="TamilNadu"/>
+			<item value="Chennai"/>
+			<item value="Raj"/>
+			<item value="Sundar"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="716"/>
+		<item key="DIALOG_Y_ORIGIN" value="167"/>
+		<item key="DIALOG_WIDTH" value="511"/>
+		<item key="DIALOG_HEIGHT" value="523"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

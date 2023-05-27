@@ -1,0 +1,5 @@
+package com.test_runner;
+
+public @interface RunTime {
+
+}

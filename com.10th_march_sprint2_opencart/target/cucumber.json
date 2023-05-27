@@ -1,0 +1,144 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-26T08:01:00.661Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vnv.swagLabs.steps.Hooks.launch(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login into SwagLabs application",
+        "description": "",
+        "id": "validate-login-functionality-of-swag-labs-application;login-into-swaglabs-application;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 6017600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vnv.swagLabs.steps.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7925032100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Login Page of SwagLabs application",
+            "match": {
+              "location": "com.vnv.swagLabs.steps.definitions.LoginSteps.userIsOnLoginPageOfSwagLabsApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8108990000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the \"UserName\" as \"pravinsingh918@gmail.com\" on Login Page of SwagLabs application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UserName\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"pravinsingh918@gmail.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.vnv.swagLabs.steps.definitions.LoginSteps.iEnterTheAsOnLoginPageOfSwagLabsApplication(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8109458100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the \"Password\" as \"singh\" on Login Page of SwagLabs application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"singh\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.vnv.swagLabs.steps.definitions.LoginSteps.iEnterTheAsOnLoginPageOfSwagLabsApplication(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 777806000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Click on the \"Login\" button on Login Page of SwagLabs application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.vnv.swagLabs.steps.definitions.LoginSteps.iClickOnTheButtonOnLoginPageOfSwagLabsApplication(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should navigate to the Products page of SwagLabs application",
+            "match": {
+              "location": "com.vnv.swagLabs.steps.definitions.ProductsSteps.userShouldNavigateToThePageOfSwagLabsApplication()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Login functionality of Swag Labs application",
+    "description": "",
+    "id": "validate-login-functionality-of-swag-labs-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/swagLabs/login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Successful login on the Application",
+        "description": "",
+        "id": "registration-on-the-application;successful-login-on-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9320111700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "Login.user_is_on_the_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 177900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Enter the Valid Details",
+            "match": {
+              "location": "Login.user_Enter_the_Valid_Details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on continue",
+            "match": {
+              "location": "Login.click_on_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "navigate to the Home Page of the Application",
+            "match": {
+              "location": "Login.navigate_to_the_Home_Page_of_the_Application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Successfull_Login"
+          }
+        ]
+      }
+    ],
+    "name": "Registration on the Application",
+    "description": "",
+    "id": "registration-on-the-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Registration.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

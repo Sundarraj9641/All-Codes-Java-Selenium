@@ -1,0 +1,17 @@
+package com.test_runner;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.testng.CucumberOptions;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+ junit= "--step-notifications",
+ plugin = {"json:target/cucumber.json"},
+ features = "Feature"//path of feature file
+ ,glue={"Step_Definitions"}//package name 
+ ,tags= {"@Registeration_with_valid_data"})
+
+public class TestRunner {
+
+}

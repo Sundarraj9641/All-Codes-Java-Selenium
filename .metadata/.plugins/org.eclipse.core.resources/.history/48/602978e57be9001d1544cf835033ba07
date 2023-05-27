@@ -1,0 +1,14 @@
+package com.encapsulation;
+
+public class Access {
+
+	public static void main(String[] args) {
+		
+		Account ac = new Account();
+		
+		ac.setAmount(1500);
+		
+		System.out.println(ac.getAmount());
+	}
+
+}
