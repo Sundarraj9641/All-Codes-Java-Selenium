@@ -1,0 +1,830 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7786800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Browser.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Display of Paints and Texture Drop Down List",
+        "description": "",
+        "id": "colours;display-of-paints-and-texture-drop-down-list",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12076515500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "Browser.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3147662500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User hovers over Paints and Texture Tab",
+            "match": {
+              "location": "Colour2200.user_hovers_over_Paints_and_Texture_Tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Paints and Texture Drop down is displayed",
+            "match": {
+              "location": "Colour2200.paints_and_Texture_Drop_down_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@2200_Colour"
+          },
+          {
+            "name": "@Drop_down_list1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 51700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Browser.openBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Colours Page Navigation",
+        "description": "",
+        "id": "colours;colours-page-navigation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 64900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is on Paints and Texture Drop Down List",
+            "match": {
+              "location": "Colour2200.user_is_on_Paints_and_Texture_Drop_Down_List()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4878348200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks Colours tab",
+            "match": {
+              "location": "Colour2200.user_clicks_Colours_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Colour page is displayed",
+            "match": {
+              "location": "Colour2200.colour_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@2200_Colour"
+          },
+          {
+            "name": "@2200Colour_page_navigation"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 48000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Browser.openBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Enquire Now Form Navigation",
+        "description": "",
+        "id": "colours;enquire-now-form-navigation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 63600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User is on Colours Page",
+            "match": {
+              "location": "Colour2200.user_is_on_Colours_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 91972800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks Enquire Now  tab",
+            "match": {
+              "location": "Colour2200.user_clicks_Enquire_Now_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 219400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Enquire Now form is displayed",
+            "match": {
+              "location": "Colour2200.enquire_Now_form_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@2200_Colour"
+          },
+          {
+            "name": "@Enquire"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 73600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Browser.openBrowser()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Succesful Enquiry",
+        "description": "",
+        "id": "colours;succesful-enquiry;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 135800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on Enquire Now form",
+            "match": {
+              "location": "Colour2200.user_is_on_Enquire_Now_form()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 161463500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enters Name rahulm",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rahulm",
+                  "offset": 17
+                }
+              ],
+              "location": "Colour2200.user_enters_Name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 178939100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enters Email rahul@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rahul@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "Colour2200.user_enters_Email_ID(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172721000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User enters Mobilenumber 98389392292",
+            "match": {
+              "arguments": [
+                {
+                  "val": "98389392292",
+                  "offset": 25
+                }
+              ],
+              "location": "Colour2200.user_enters_Mobile_Number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31746800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User enters Pincode 123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 20
+                }
+              ],
+              "location": "Colour2200.user_enters_Pincode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83464800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User clicks on Enquire Tab",
+            "match": {
+              "location": "Colour2200.user_clicks_on_Enquire_Tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3105925000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Succesful Completion page is displayed",
+            "match": {
+              "location": "Colour2200.succesful_Completion_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@2200_Colour"
+          },
+          {
+            "name": "@Succesful_Enquiry"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 72300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Browser.openBrowser()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Succesful Enquiry",
+        "description": "",
+        "id": "colours;succesful-enquiry;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 86400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on Enquire Now form",
+            "match": {
+              "location": "Colour2200.user_is_on_Enquire_Now_form()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28541300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enters Name rahulmW",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rahulmW",
+                  "offset": 17
+                }
+              ],
+              "location": "Colour2200.user_enters_Name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100006500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enters Email rahuWl@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rahuWl@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "Colour2200.user_enters_Email_ID(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110780800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User enters Mobilenumber 938389392292",
+            "match": {
+              "arguments": [
+                {
+                  "val": "938389392292",
+                  "offset": 25
+                }
+              ],
+              "location": "Colour2200.user_enters_Mobile_Number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32921300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User enters Pincode 12333",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12333",
+                  "offset": 20
+                }
+              ],
+              "location": "Colour2200.user_enters_Pincode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49201400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User clicks on Enquire Tab",
+            "match": {
+              "location": "Colour2200.user_clicks_on_Enquire_Tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3094771600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Succesful Completion page is displayed",
+            "match": {
+              "location": "Colour2200.succesful_Completion_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@2200_Colour"
+          },
+          {
+            "name": "@Succesful_Enquiry"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 49100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Browser.openBrowser()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Unsuccesful Enquiry",
+        "description": "",
+        "id": "colours;unsuccesful-enquiry;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 63700,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User is on Enquire Now form",
+            "match": {
+              "location": "Colour2200.user_is_on_Enquire_Now_form()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25345900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User enters Name rahulm",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rahulm",
+                  "offset": 17
+                }
+              ],
+              "location": "Colour2200.user_enters_Name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90024500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User enters Email rahul@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rahul@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "Colour2200.user_enters_Email_ID(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99859600,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User enters Mobilenumber 98389392292",
+            "match": {
+              "arguments": [
+                {
+                  "val": "98389392292",
+                  "offset": 25
+                }
+              ],
+              "location": "Colour2200.user_enters_Mobile_Number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25878000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User enters Pincode 123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 20
+                }
+              ],
+              "location": "Colour2200.user_enters_Pincode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47996500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User clicks on Enquire Tab",
+            "match": {
+              "location": "Colour2200.user_clicks_on_Enquire_Tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81442800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Unsuccesful Error Message is displayed",
+            "match": {
+              "location": "Colour2200.unsuccesful_Error_Message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@2200_Colour"
+          },
+          {
+            "name": "@Unsuccesful_Enquiry"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 74200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Browser.openBrowser()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "Unsuccesful Enquiry",
+        "description": "",
+        "id": "colours;unsuccesful-enquiry;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 113300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User is on Enquire Now form",
+            "match": {
+              "location": "Colour2200.user_is_on_Enquire_Now_form()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22078500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User enters Name rahulmW",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rahulmW",
+                  "offset": 17
+                }
+              ],
+              "location": "Colour2200.user_enters_Name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90717800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User enters Email rahuWl@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rahuWl@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "Colour2200.user_enters_Email_ID(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70887800,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User enters Mobilenumber 938389392292",
+            "match": {
+              "arguments": [
+                {
+                  "val": "938389392292",
+                  "offset": 25
+                }
+              ],
+              "location": "Colour2200.user_enters_Mobile_Number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35257400,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User enters Pincode 12333",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12333",
+                  "offset": 20
+                }
+              ],
+              "location": "Colour2200.user_enters_Pincode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58953900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User clicks on Enquire Tab",
+            "match": {
+              "location": "Colour2200.user_clicks_on_Enquire_Tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59939600,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Unsuccesful Error Message is displayed",
+            "match": {
+              "location": "Colour2200.unsuccesful_Error_Message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@2200_Colour"
+          },
+          {
+            "name": "@Unsuccesful_Enquiry"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 52900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Browser.openBrowser()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Colours Product Page Navigation",
+        "description": "",
+        "id": "colours;colours-product-page-navigation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 104000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User is on Colours Page",
+            "match": {
+              "location": "Colour2200.user_is_on_Colours_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84900,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User clicks on the Colours product",
+            "match": {
+              "location": "Colour2200.user_clicks_on_the_Colours_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4189586600,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Colours Product page is displayed",
+            "match": {
+              "location": "Colour2200.colours_Product_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@2200_Colour"
+          },
+          {
+            "name": "@ProductNavigation_1"
+          }
+        ]
+      }
+    ],
+    "name": "Colours",
+    "description": "",
+    "id": "colours",
+    "keyword": "Feature",
+    "uri": "features/2200colour.feature",
+    "tags": [
+      {
+        "name": "@2200_Colour",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

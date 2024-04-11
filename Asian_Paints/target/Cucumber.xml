@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="32.277713">
+    <testcase classname="Colours" name="Display of Paints and Texture Drop Down List" time="15.239989">
+        <system-out><![CDATA[Given User is on Home Page..................................................passed
+When User hovers over Paints and Texture Tab................................passed
+Then Paints and Texture Drop down is displayed..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Colours" name="Colours Page Navigation" time="4.87929">
+        <system-out><![CDATA[Given User is on Paints and Texture Drop Down List..........................passed
+When User clicks Colours tab................................................passed
+Then Colour page is displayed...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Colours" name="Enquire Now Form Navigation" time="0.093201">
+        <system-out><![CDATA[Given User is on Colours Page...............................................passed
+When User clicks Enquire Now  tab...........................................passed
+Then Enquire Now form is displayed..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Colours" name="Succesful Enquiry" time="3.738701">
+        <system-out><![CDATA[Given User is on Enquire Now form...........................................passed
+When User enters Name rahulm................................................passed
+And User enters Email rahul@gmail.com.......................................passed
+And User enters Mobilenumber 98389392292....................................passed
+And User enters Pincode 123.................................................passed
+And User clicks on Enquire Tab..............................................passed
+Then Succesful Completion page is displayed.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Colours" name="Succesful Enquiry 2" time="3.418956">
+        <system-out><![CDATA[Given User is on Enquire Now form...........................................passed
+When User enters Name rahulmW...............................................passed
+And User enters Email rahuWl@gmail.com......................................passed
+And User enters Mobilenumber 938389392292...................................passed
+And User enters Pincode 12333...............................................passed
+And User clicks on Enquire Tab..............................................passed
+Then Succesful Completion page is displayed.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Colours" name="Unsuccesful Enquiry" time="0.375859">
+        <system-out><![CDATA[Given User is on Enquire Now form...........................................passed
+When User enters Name rahulm................................................passed
+And User enters Email rahul@gmail.com.......................................passed
+And User enters Mobilenumber 98389392292....................................passed
+And User enters Pincode 123.................................................passed
+And User clicks on Enquire Tab..............................................passed
+Then Unsuccesful Error Message is displayed.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Colours" name="Unsuccesful Enquiry 2" time="0.34121">
+        <system-out><![CDATA[Given User is on Enquire Now form...........................................passed
+When User enters Name rahulmW...............................................passed
+And User enters Email rahuWl@gmail.com......................................passed
+And User enters Mobilenumber 938389392292...................................passed
+And User enters Pincode 12333...............................................passed
+And User clicks on Enquire Tab..............................................passed
+Then Unsuccesful Error Message is displayed.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Colours" name="Colours Product Page Navigation" time="4.190507">
+        <system-out><![CDATA[Given User is on Colours Page...............................................passed
+When User clicks on the Colours product.....................................passed
+Then Colours Product page is displayed......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

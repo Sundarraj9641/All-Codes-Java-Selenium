@@ -18,7 +18,7 @@ import com.vnv.swagLabs.runner.utils.SetupDriver;
     					},
       glue = {"com.vnv.swagLabs.steps"},
     monochrome = true,
-    tags = {"@Login"}
+    tags = {"@Login, @checkout"}
 	  // tags = {"@checkout"}
 	 //   tags = {"@Products_SwagLabs"}
 		)

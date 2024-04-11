@@ -22,6 +22,16 @@ public class LoginPageFactory {
 	@FindBy(how=How.XPATH, using="//*[@id=\"SW\"]/div[1]/div[2]/div[2]/div/section/form/div[2]/button")
 	WebElement Continue_Button;
 	
+	@FindBy(how=How.NAME, using="password")
+	WebElement Password;
+	
+	@FindBy(how=How.XPATH, using="//*[@id=\"SW\"]/div[1]/div[2]/div[2]/div/section/form/div[2]/button")
+	WebElement Log_In_Button;
+	
+	@FindBy(how=How.XPATH, using="//*[@id=\"SW\"]/div[1]/div[2]/div[2]/div/section/div[1]/div/span")
+	WebElement Cross_button;
+	
+	
 	public LoginPageFactory(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -40,8 +50,27 @@ public class LoginPageFactory {
 	}
 	
 	public void continue_button() {
+		wait.until(ExpectedConditions.elementToBeClickable(Continue_Button));
 		Continue_Button.click();
 	}
+	
+	public void password(String pwd) {
+		//WebDriverWait wait = new WebDriverWait(driver, 30);
+		wait.until(ExpectedConditions.elementToBeClickable(Password));
+		Password.sendKeys(pwd);
+	}
+	
+	public void login_Button() {
+		Log_In_Button.click();
+	}
+	
+	public void cross_Button() {
+		if(Cross_button.isDisplayed()) {
+		Cross_button.click();
+		}
+	}
+	
+
 	
 
 }

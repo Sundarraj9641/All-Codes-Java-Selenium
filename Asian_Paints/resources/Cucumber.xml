@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="8" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="5.82598">
+    <testcase classname="Colours" name="Display of Paints and Texture Drop Down List" time="2.733002">
+        <failure message="org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 112&#10;Current browser version is 114.0.5735.90 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-UU2F52V', ip: '192.168.0.100', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;GetHandleVerifier [0x0036DCE3+50899]&#10;&#9;(No symbol) [0x002FE111]&#10;&#9;(No symbol) [0x00205588]&#10;&#9;(No symbol) [0x0022570C]&#10;&#9;(No symbol) [0x00221471]&#10;&#9;(No symbol) [0x0021F479]&#10;&#9;(No symbol) [0x00251FFE]&#10;&#9;(No symbol) [0x00251CEC]&#10;&#9;(No symbol) [0x0024B6F6]&#10;&#9;(No symbol) [0x00227708]&#10;&#9;(No symbol) [0x0022886D]&#10;&#9;GetHandleVerifier [0x005D3EAE+2566302]&#10;&#9;GetHandleVerifier [0x006092B1+2784417]&#10;&#9;GetHandleVerifier [0x0060327C+2759788]&#10;&#9;GetHandleVerifier [0x00405740+672048]&#10;&#9;(No symbol) [0x00308872]&#10;&#9;(No symbol) [0x003041C8]&#10;&#9;(No symbol) [0x003042AB]&#10;&#9;(No symbol) [0x002F71B7]&#10;&#9;BaseThreadInitThunk [0x77477D59+25]&#10;&#9;RtlInitializeExceptionChain [0x7770B74B+107]&#10;&#9;RtlClearBits [0x7770B6CF+191]&#10;&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#13;&#10;&#9;at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#13;&#10;&#9;at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;&#10;&#9;at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)&#13;&#10;&#9;at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)&#13;&#10;&#9;at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)&#13;&#10;&#9;at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)&#13;&#10;&#9;at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;&#10;&#9;at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)&#13;&#10;&#9;at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;&#10;&#9;at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)&#13;&#10;&#9;at com.asianpaints.coloursandtextures.stepDefinitions.Browser.userIsOnHomePage(Browser.java:51)&#13;&#10;&#9;at ✽.User is on Home Page(features/2200colour.feature:6)&#13;&#10;"><![CDATA[Given User is on Home Page..................................................failed
+When User hovers over Paints and Texture Tab................................skipped
+Then Paints and Texture Drop down is displayed..............................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 112
+Current browser version is 114.0.5735.90 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UU2F52V', ip: '192.168.0.100', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x0036DCE3+50899]
+	(No symbol) [0x002FE111]
+	(No symbol) [0x00205588]
+	(No symbol) [0x0022570C]
+	(No symbol) [0x00221471]
+	(No symbol) [0x0021F479]
+	(No symbol) [0x00251FFE]
+	(No symbol) [0x00251CEC]
+	(No symbol) [0x0024B6F6]
+	(No symbol) [0x00227708]
+	(No symbol) [0x0022886D]
+	GetHandleVerifier [0x005D3EAE+2566302]
+	GetHandleVerifier [0x006092B1+2784417]
+	GetHandleVerifier [0x0060327C+2759788]
+	GetHandleVerifier [0x00405740+672048]
+	(No symbol) [0x00308872]
+	(No symbol) [0x003041C8]
+	(No symbol) [0x003042AB]
+	(No symbol) [0x002F71B7]
+	BaseThreadInitThunk [0x77477D59+25]
+	RtlInitializeExceptionChain [0x7770B74B+107]
+	RtlClearBits [0x7770B6CF+191]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.asianpaints.coloursandtextures.stepDefinitions.Browser.userIsOnHomePage(Browser.java:51)
+	at ✽.User is on Home Page(features/2200colour.feature:6)
+]]></failure>
+    </testcase>
+    <testcase classname="Colours" name="Ctiolours Page Navigaon" time="0.013926">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;com.asianpaints.coloursandtextures.pageObjects.Colours.colour_2200()&quot; because &quot;com.asianpaints.coloursandtextures.stepDefinitions.Browser.colourPgObj&quot; is null&#13;&#10;&#9;at com.asianpaints.coloursandtextures.stepDefinitions.Colour2200.userClicksColoursTab(Colour2200.java:59)&#13;&#10;&#9;at ✽.User clicks Colours tab(features/2200colour.feature:13)&#13;&#10;"><![CDATA[Given User is on Paints and Texture Drop Down List..........................passed
+When User clicks Colours tab................................................failed
+Then Colour page is displayed...............................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "com.asianpaints.coloursandtextures.pageObjects.Colours.colour_2200()" because "com.asianpaints.coloursandtextures.stepDefinitions.Browser.colourPgObj" is null
+	at com.asianpaints.coloursandtextures.stepDefinitions.Colour2200.userClicksColoursTab(Colour2200.java:59)
+	at ✽.User clicks Colours tab(features/2200colour.feature:13)
+]]></failure>
+    </testcase>
+    <testcase classname="Colours" name="Enquire Now Form Navigation" time="0.010575">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;com.asianpaints.coloursandtextures.pageObjects.Colours.enquireNowButton()&quot; because &quot;com.asianpaints.coloursandtextures.stepDefinitions.Browser.colourPgObj&quot; is null&#13;&#10;&#9;at com.asianpaints.coloursandtextures.stepDefinitions.Colour2200.userClicksEnquireNowTab(Colour2200.java:78)&#13;&#10;&#9;at ✽.User clicks Enquire Now  tab(features/2200colour.feature:19)&#13;&#10;"><![CDATA[Given User is on Colours Page...............................................passed
+When User clicks Enquire Now  tab...........................................failed
+Then Enquire Now form is displayed..........................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "com.asianpaints.coloursandtextures.pageObjects.Colours.enquireNowButton()" because "com.asianpaints.coloursandtextures.stepDefinitions.Browser.colourPgObj" is null
+	at com.asianpaints.coloursandtextures.stepDefinitions.Colour2200.userClicksEnquireNowTab(Colour2200.java:78)
+	at ✽.User clicks Enquire Now  tab(features/2200colour.feature:19)
+]]></failure>
+    </testcase>
+    <testcase classname="Colours" name="Succesful Enquiry" time="0.024623">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;com.asianpaints.coloursandtextures.pageObjects.Colours.enterName(String)&quot; because &quot;com.asianpaints.coloursandtextures.stepDefinitions.Browser.colourPgObj&quot; is null&#13;&#10;&#9;at com.asianpaints.coloursandtextures.stepDefinitions.Colour2200.userEntersName(Colour2200.java:97)&#13;&#10;&#9;at ✽.User enters Name rahulm(features/2200colour.feature:25)&#13;&#10;"><![CDATA[Given User is on Enquire Now form...........................................passed
+When User enters Name rahulm................................................failed
+And User enters Email dharshana.ravichandran7513@gmail.com..................skipped
+And User enters Mobilenumber 9994460184.....................................skipped
+And User enters Pincode 123.................................................skipped
+And User clicks on Enquire Tab..............................................skipped
+Then Succesful Completion page is displayed.................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "com.asianpaints.coloursandtextures.pageObjects.Colours.enterName(String)" because "com.asianpaints.coloursandtextures.stepDefinitions.Browser.colourPgObj" is null
+	at com.asianpaints.coloursandtextures.stepDefinitions.Colour2200.userEntersName(Colour2200.java:97)
+	at ✽.User enters Name rahulm(features/2200colour.feature:25)
+]]></failure>
+    </testcase>
+    <testcase classname="Colours" name="Succesful Enquiry 2" time="0.013799">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;com.asianpaints.coloursandtextures.pageObjects.Colours.enterName(String)&quot; because &quot;com.asianpaints.coloursandtextures.stepDefinitions.Browser.colourPgObj&quot; is null&#13;&#10;&#9;at com.asianpaints.coloursandtextures.stepDefinitions.Colour2200.userEntersName(Colour2200.java:97)&#13;&#10;&#9;at ✽.User enters Name rahulmW(features/2200colour.feature:25)&#13;&#10;"><![CDATA[Given User is on Enquire Now form...........................................passed
+When User enters Name rahulmW...............................................failed
+And User enters Email dharshana.18ee@kct.ac.in..............................skipped
+And User enters Mobilenumber 6369501003.....................................skipped
+And User enters Pincode 12333...............................................skipped
+And User clicks on Enquire Tab..............................................skipped
+Then Succesful Completion page is displayed.................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "com.asianpaints.coloursandtextures.pageObjects.Colours.enterName(String)" because "com.asianpaints.coloursandtextures.stepDefinitions.Browser.colourPgObj" is null
+	at com.asianpaints.coloursandtextures.stepDefinitions.Colour2200.userEntersName(Colour2200.java:97)
+	at ✽.User enters Name rahulmW(features/2200colour.feature:25)
+]]></failure>
+    </testcase>
+    <testcase classname="Colours" name="Unsuccesful Enquiry" time="0.009721">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;com.asianpaints.coloursandtextures.pageObjects.Colours.enterName(String)&quot; because &quot;com.asianpaints.coloursandtextures.stepDefinitions.Browser.colourPgObj&quot; is null&#13;&#10;&#9;at com.asianpaints.coloursandtextures.stepDefinitions.Colour2200.userEntersName(Colour2200.java:97)&#13;&#10;&#9;at ✽.User enters Name rahulm(features/2200colour.feature:40)&#13;&#10;"><![CDATA[Given User is on Enquire Now form...........................................passed
+When User enters Name rahulm................................................failed
+And User enters Email rahul@gmail.com.......................................skipped
+And User enters Mobilenumber 98389392292....................................skipped
+And User enters Pincode 123.................................................skipped
+And User clicks on Enquire Tab..............................................skipped
+Then Unsuccesful Error Message is displayed.................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "com.asianpaints.coloursandtextures.pageObjects.Colours.enterName(String)" because "com.asianpaints.coloursandtextures.stepDefinitions.Browser.colourPgObj" is null
+	at com.asianpaints.coloursandtextures.stepDefinitions.Colour2200.userEntersName(Colour2200.java:97)
+	at ✽.User enters Name rahulm(features/2200colour.feature:40)
+]]></failure>
+    </testcase>
+    <testcase classname="Colours" name="Unsuccesful Enquiry 2" time="0.008845">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;com.asianpaints.coloursandtextures.pageObjects.Colours.enterName(String)&quot; because &quot;com.asianpaints.coloursandtextures.stepDefinitions.Browser.colourPgObj&quot; is null&#13;&#10;&#9;at com.asianpaints.coloursandtextures.stepDefinitions.Colour2200.userEntersName(Colour2200.java:97)&#13;&#10;&#9;at ✽.User enters Name rahulmW(features/2200colour.feature:40)&#13;&#10;"><![CDATA[Given User is on Enquire Now form...........................................passed
+When User enters Name rahulmW...............................................failed
+And User enters Email rahuWl@gmail.com......................................skipped
+And User enters Mobilenumber 938389392292...................................skipped
+And User enters Pincode 12333...............................................skipped
+And User clicks on Enquire Tab..............................................skipped
+Then Unsuccesful Error Message is displayed.................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "com.asianpaints.coloursandtextures.pageObjects.Colours.enterName(String)" because "com.asianpaints.coloursandtextures.stepDefinitions.Browser.colourPgObj" is null
+	at com.asianpaints.coloursandtextures.stepDefinitions.Colour2200.userEntersName(Colour2200.java:97)
+	at ✽.User enters Name rahulmW(features/2200colour.feature:40)
+]]></failure>
+    </testcase>
+    <testcase classname="Colours" name="Colours Product Page Navigation" time="0.006176">
+        <system-out><![CDATA[Given User is on Colours Page...............................................passed
+When User clicks on the Colours product.....................................passed
+Then Colours Product page is displayed......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Colours" name="To close the browser after completion of the feature" time="3.005313">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.close()&quot; because &quot;com.asianpaints.coloursandtextures.stepDefinitions.Browser.driver&quot; is null&#13;&#10;&#9;at com.asianpaints.coloursandtextures.stepDefinitions.Colour2200.closeTheBrowser(Colour2200.java:181)&#13;&#10;&#9;at ✽.Close the Browser(features/2200colour.feature:61)&#13;&#10;"><![CDATA[Given User is on Colours Product Page.......................................passed
+Then Close the Browser......................................................failed
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "com.asianpaints.coloursandtextures.stepDefinitions.Browser.driver" is null
+	at com.asianpaints.coloursandtextures.stepDefinitions.Colour2200.closeTheBrowser(Colour2200.java:181)
+	at ✽.Close the Browser(features/2200colour.feature:61)
+]]></failure>
+    </testcase>
+</testsuite>
