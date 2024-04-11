@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\SUMAHALI\eclipse-workspace\Open Browser\src\com\openbrowser\OpenBrowser.java"/>
+			<item value="C:\Users\SUMAHALI\eclipse-workspace"/>
+			<item value="C:\Users\SUMAHALI\eclipse-workspace\MakeMyTrip_WebApp\target\index.html"/>
 			<item value="C:\Users\SUMAHALI\eclipse-workspace\Application_makemytrip\src\test\java\com\pagefactory"/>
 			<item value="C:\Users\SUMAHALI\eclipse-workspace\Application_makemytrip\pom.xml"/>
 			<item value="C:\Users\SUMAHALI\eclipse-workspace\Application_makemytrip"/>
@@ -14,7 +17,6 @@
 			<item value="C:\Users\SUMAHALI\eclipse-workspace\Remove Whitespace in String"/>
 			<item value="C:\Users\SUMAHALI\eclipse-workspace\Selenium"/>
 			<item value="C:\Users\SUMAHALI\eclipse-workspace\Selenium\src\com\draganddrop\DragAndDrop.java"/>
-			<item value="C:\Users\SUMAHALI\eclipse-workspace\Selenium\src\com\alert\AlertDemo.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -38,10 +40,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.appiumtesting.Appium"/>
 		</list>
 		<list key="groupId">
+			<item value="com.appiumtesting"/>
 		</list>
 		<list key="artifactId">
+			<item value="Appium"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -57,12 +62,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.automationsprint"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="MakeMyTrip_WebApp"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

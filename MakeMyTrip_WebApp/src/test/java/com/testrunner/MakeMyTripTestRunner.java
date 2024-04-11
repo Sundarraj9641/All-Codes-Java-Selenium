@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 				  "html:target"},
 		features ="src\\test\\resources\\Features", //path of the feature file
 		glue= {"com.step_definitions"},	//package name of step definition file
-		tags = {"@Login"}  //tags want to run
+		tags = {"@one_way"}  //tags want to run
 		)
 
 public class MakeMyTripTestRunner {

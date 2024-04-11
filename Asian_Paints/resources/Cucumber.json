@@ -1,0 +1,891 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15071600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Browser.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Display of Paints and Texture Drop Down List",
+        "description": "",
+        "id": "colours;display-of-paints-and-texture-drop-down-list",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 112\nCurrent browser version is 114.0.5735.90 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UU2F52V\u0027, ip: \u0027192.168.0.100\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.3\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tGetHandleVerifier [0x0036DCE3+50899]\n\t(No symbol) [0x002FE111]\n\t(No symbol) [0x00205588]\n\t(No symbol) [0x0022570C]\n\t(No symbol) [0x00221471]\n\t(No symbol) [0x0021F479]\n\t(No symbol) [0x00251FFE]\n\t(No symbol) [0x00251CEC]\n\t(No symbol) [0x0024B6F6]\n\t(No symbol) [0x00227708]\n\t(No symbol) [0x0022886D]\n\tGetHandleVerifier [0x005D3EAE+2566302]\n\tGetHandleVerifier [0x006092B1+2784417]\n\tGetHandleVerifier [0x0060327C+2759788]\n\tGetHandleVerifier [0x00405740+672048]\n\t(No symbol) [0x00308872]\n\t(No symbol) [0x003041C8]\n\t(No symbol) [0x003042AB]\n\t(No symbol) [0x002F71B7]\n\tBaseThreadInitThunk [0x77477D59+25]\n\tRtlInitializeExceptionChain [0x7770B74B+107]\n\tRtlClearBits [0x7770B6CF+191]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:157)\r\n\tat com.asianpaints.coloursandtextures.stepDefinitions.Browser.userIsOnHomePage(Browser.java:51)\r\n\tat ✽.User is on Home Page(features/2200colour.feature:6)\r\n",
+              "duration": 2699601400,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "Browser.userIsOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 194100,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User hovers over Paints and Texture Tab",
+            "match": {
+              "location": "Colour2200.userHoversOverPaintsAndTextureTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 396700,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Paints and Texture Drop down is displayed",
+            "match": {
+              "location": "Colour2200.paintsAndTextureDropdownIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@2200_Colour"
+          },
+          {
+            "name": "@Drop_down_list1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 229200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Browser.openBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Ctiolours Page Navigaon",
+        "description": "",
+        "id": "colours;ctiolours-page-navigaon",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1516500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is on Paints and Texture Drop Down List",
+            "match": {
+              "location": "Colour2200.userIsOnPaintsAndTextureDropDownList()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"com.asianpaints.coloursandtextures.pageObjects.Colours.colour_2200()\" because \"com.asianpaints.coloursandtextures.stepDefinitions.Browser.colourPgObj\" is null\r\n\tat com.asianpaints.coloursandtextures.stepDefinitions.Colour2200.userClicksColoursTab(Colour2200.java:59)\r\n\tat ✽.User clicks Colours tab(features/2200colour.feature:13)\r\n",
+              "duration": 4650800,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "User clicks Colours tab",
+            "match": {
+              "location": "Colour2200.userClicksColoursTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 514700,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Colour page is displayed",
+            "match": {
+              "location": "Colour2200.colourPageIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@2200_Colour"
+          },
+          {
+            "name": "@2200Colour_page_navigation"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 121500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Browser.openBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Enquire Now Form Navigation",
+        "description": "",
+        "id": "colours;enquire-now-form-navigation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 715700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User is on Colours Page",
+            "match": {
+              "location": "Colour2200.userIsOnColoursPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"com.asianpaints.coloursandtextures.pageObjects.Colours.enquireNowButton()\" because \"com.asianpaints.coloursandtextures.stepDefinitions.Browser.colourPgObj\" is null\r\n\tat com.asianpaints.coloursandtextures.stepDefinitions.Colour2200.userClicksEnquireNowTab(Colour2200.java:78)\r\n\tat ✽.User clicks Enquire Now  tab(features/2200colour.feature:19)\r\n",
+              "duration": 2377600,
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "User clicks Enquire Now  tab",
+            "match": {
+              "location": "Colour2200.userClicksEnquireNowTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 255100,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Enquire Now form is displayed",
+            "match": {
+              "location": "Colour2200.enquireNowformIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@2200_Colour"
+          },
+          {
+            "name": "@Enquire"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 137200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Browser.openBrowser()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Succesful Enquiry",
+        "description": "",
+        "id": "colours;succesful-enquiry;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 425500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on Enquire Now form",
+            "match": {
+              "location": "Colour2200.userIsOnEnquireNowform()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"com.asianpaints.coloursandtextures.pageObjects.Colours.enterName(String)\" because \"com.asianpaints.coloursandtextures.stepDefinitions.Browser.colourPgObj\" is null\r\n\tat com.asianpaints.coloursandtextures.stepDefinitions.Colour2200.userEntersName(Colour2200.java:97)\r\n\tat ✽.User enters Name rahulm(features/2200colour.feature:25)\r\n",
+              "duration": 2214700,
+              "status": "failed"
+            },
+            "line": 25,
+            "name": "User enters Name rahulm",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rahulm",
+                  "offset": 17
+                }
+              ],
+              "location": "Colour2200.userEntersName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 526200,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User enters Email dharshana.ravichandran7513@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dharshana.ravichandran7513@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "Colour2200.userEntersEmailID(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 472600,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User enters Mobilenumber 9994460184",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9994460184",
+                  "offset": 25
+                }
+              ],
+              "location": "Colour2200.userEntersMobileNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 276800,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "User enters Pincode 123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 20
+                }
+              ],
+              "location": "Colour2200.userEntersPincode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 498900,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "User clicks on Enquire Tab",
+            "match": {
+              "location": "Colour2200.userClicksOnEnquireTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1191800,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "Succesful Completion page is displayed",
+            "match": {
+              "location": "Colour2200.succesfulCompletionPageIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@2200_Colour"
+          },
+          {
+            "name": "@Succesful_Enquiry"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 248800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Browser.openBrowser()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Succesful Enquiry",
+        "description": "",
+        "id": "colours;succesful-enquiry;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 827100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on Enquire Now form",
+            "match": {
+              "location": "Colour2200.userIsOnEnquireNowform()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"com.asianpaints.coloursandtextures.pageObjects.Colours.enterName(String)\" because \"com.asianpaints.coloursandtextures.stepDefinitions.Browser.colourPgObj\" is null\r\n\tat com.asianpaints.coloursandtextures.stepDefinitions.Colour2200.userEntersName(Colour2200.java:97)\r\n\tat ✽.User enters Name rahulmW(features/2200colour.feature:25)\r\n",
+              "duration": 910200,
+              "status": "failed"
+            },
+            "line": 25,
+            "name": "User enters Name rahulmW",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rahulmW",
+                  "offset": 17
+                }
+              ],
+              "location": "Colour2200.userEntersName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 349600,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User enters Email dharshana.18ee@kct.ac.in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dharshana.18ee@kct.ac.in",
+                  "offset": 18
+                }
+              ],
+              "location": "Colour2200.userEntersEmailID(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 521200,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User enters Mobilenumber 6369501003",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6369501003",
+                  "offset": 25
+                }
+              ],
+              "location": "Colour2200.userEntersMobileNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 288900,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "User enters Pincode 12333",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12333",
+                  "offset": 20
+                }
+              ],
+              "location": "Colour2200.userEntersPincode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001100,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "User clicks on Enquire Tab",
+            "match": {
+              "location": "Colour2200.userClicksOnEnquireTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201500,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "Succesful Completion page is displayed",
+            "match": {
+              "location": "Colour2200.succesfulCompletionPageIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@2200_Colour"
+          },
+          {
+            "name": "@Succesful_Enquiry"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 92100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Browser.openBrowser()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Unsuccesful Enquiry",
+        "description": "",
+        "id": "colours;unsuccesful-enquiry;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 180500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User is on Enquire Now form",
+            "match": {
+              "location": "Colour2200.userIsOnEnquireNowform()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"com.asianpaints.coloursandtextures.pageObjects.Colours.enterName(String)\" because \"com.asianpaints.coloursandtextures.stepDefinitions.Browser.colourPgObj\" is null\r\n\tat com.asianpaints.coloursandtextures.stepDefinitions.Colour2200.userEntersName(Colour2200.java:97)\r\n\tat ✽.User enters Name rahulm(features/2200colour.feature:40)\r\n",
+              "duration": 400400,
+              "status": "failed"
+            },
+            "line": 40,
+            "name": "User enters Name rahulm",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rahulm",
+                  "offset": 17
+                }
+              ],
+              "location": "Colour2200.userEntersName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134300,
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "User enters Email rahul@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rahul@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "Colour2200.userEntersEmailID(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 379400,
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "User enters Mobilenumber 98389392292",
+            "match": {
+              "arguments": [
+                {
+                  "val": "98389392292",
+                  "offset": 25
+                }
+              ],
+              "location": "Colour2200.userEntersMobileNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 399000,
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "User enters Pincode 123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 20
+                }
+              ],
+              "location": "Colour2200.userEntersPincode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273900,
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "User clicks on Enquire Tab",
+            "match": {
+              "location": "Colour2200.userClicksOnEnquireTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 236900,
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "Unsuccesful Error Message is displayed",
+            "match": {
+              "location": "Colour2200.unsuccesfulErrorMessageIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@2200_Colour"
+          },
+          {
+            "name": "@Unsuccesful_Enquiry"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 120100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Browser.openBrowser()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "Unsuccesful Enquiry",
+        "description": "",
+        "id": "colours;unsuccesful-enquiry;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 590400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User is on Enquire Now form",
+            "match": {
+              "location": "Colour2200.userIsOnEnquireNowform()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"com.asianpaints.coloursandtextures.pageObjects.Colours.enterName(String)\" because \"com.asianpaints.coloursandtextures.stepDefinitions.Browser.colourPgObj\" is null\r\n\tat com.asianpaints.coloursandtextures.stepDefinitions.Colour2200.userEntersName(Colour2200.java:97)\r\n\tat ✽.User enters Name rahulmW(features/2200colour.feature:40)\r\n",
+              "duration": 1076300,
+              "status": "failed"
+            },
+            "line": 40,
+            "name": "User enters Name rahulmW",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rahulmW",
+                  "offset": 17
+                }
+              ],
+              "location": "Colour2200.userEntersName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 288800,
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "User enters Email rahuWl@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rahuWl@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "Colour2200.userEntersEmailID(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176500,
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "User enters Mobilenumber 938389392292",
+            "match": {
+              "arguments": [
+                {
+                  "val": "938389392292",
+                  "offset": 25
+                }
+              ],
+              "location": "Colour2200.userEntersMobileNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186300,
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "User enters Pincode 12333",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12333",
+                  "offset": 20
+                }
+              ],
+              "location": "Colour2200.userEntersPincode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263200,
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "User clicks on Enquire Tab",
+            "match": {
+              "location": "Colour2200.userClicksOnEnquireTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221500,
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "Unsuccesful Error Message is displayed",
+            "match": {
+              "location": "Colour2200.unsuccesfulErrorMessageIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@2200_Colour"
+          },
+          {
+            "name": "@Unsuccesful_Enquiry"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 144200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Browser.openBrowser()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Colours Product Page Navigation",
+        "description": "",
+        "id": "colours;colours-product-page-navigation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 437200,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User is on Colours Page",
+            "match": {
+              "location": "Colour2200.userIsOnColoursPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1002400,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User clicks on the Colours product",
+            "match": {
+              "location": "Colour2200.userClicksOnTheColoursProduct()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 470600,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Colours Product page is displayed",
+            "match": {
+              "location": "Colour2200.coloursProductPageIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@2200_Colour"
+          },
+          {
+            "name": "@ProductNavigation_1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 231300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Browser.openBrowser()"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "To close the browser after completion of the feature",
+        "description": "",
+        "id": "colours;to-close-the-browser-after-completion-of-the-feature",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 369900,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User is on Colours Product Page",
+            "match": {
+              "location": "Colour2200.userIsOnColoursProductPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.close()\" because \"com.asianpaints.coloursandtextures.stepDefinitions.Browser.driver\" is null\r\n\tat com.asianpaints.coloursandtextures.stepDefinitions.Colour2200.closeTheBrowser(Colour2200.java:181)\r\n\tat ✽.Close the Browser(features/2200colour.feature:61)\r\n",
+              "duration": 3002715700,
+              "status": "failed"
+            },
+            "line": 61,
+            "name": "Close the Browser",
+            "match": {
+              "location": "Colour2200.closeTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@2200_Colour"
+          },
+          {
+            "name": "@close_browser"
+          }
+        ]
+      }
+    ],
+    "name": "Colours",
+    "description": "",
+    "id": "colours",
+    "keyword": "Feature",
+    "uri": "features/2200colour.feature",
+    "tags": [
+      {
+        "name": "@2200_Colour",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
